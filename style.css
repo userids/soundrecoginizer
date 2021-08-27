@@ -1,0 +1,27 @@
+body{
+    font-family:"Special Elite",cursive ;
+    background:linear-gradient(rgb(58, 103, 224),rgb(8, 255, 28));
+}
+.header_div{
+    background:#fff;
+    color:steelblue;
+
+}
+.header_div p{
+    font-family: "Roboto", Sans-serif;
+    color:grey;
+    letter-spacing:2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.right_footer{
+position:fixed;
+color:darkgray;
+bottom:0;
+width:100%;
+font-size:18px;
+background-color:#fff;
+line-height:3;
+text-align:center;
+text-shadow:5px 5px 5px cyan;
+}
