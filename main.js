@@ -30,17 +30,17 @@ function gotResults(error, results) {
 
         //if conditions////////
 
-        if (results[0].label == "Clap") {
+        if (results[0].label == "claps") {
             img1.src = 'aliens-01.gif';
             img2.src = 'aliens-02.png';
             img3.src = 'aliens-03.png';
             img4.src = 'aliens-04.png';
-        } else if (results[0].label == "Bell") {
+        } else if (results[0].label == "bell") {
             img1.src = 'aliens-01.png';
             img2.src = 'aliens-02.gif';
             img3.src = 'aliens-03.png';
             img4.src = 'aliens-04.png';
-        } else if (results[0].label == "Snapping") {
+        } else if (results[0].label == "Water") {
             img1.src = 'aliens-01.png';
             img2.src = 'aliens-02.png';
             img3.src = 'aliens-03.gif';
