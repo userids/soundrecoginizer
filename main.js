@@ -35,7 +35,7 @@ function gotResults(error, results) {
             img2.src = 'aliens-02.png';
             img3.src = 'aliens-03.png';
             img4.src = 'aliens-04.png';
-        } else if (results[0].label == "bell") {
+        } else if (results[0].label == "Bell") {
             img1.src = 'aliens-01.png';
             img2.src = 'aliens-02.gif';
             img3.src = 'aliens-03.png';
